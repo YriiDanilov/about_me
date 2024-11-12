@@ -1,0 +1,61 @@
+.asside {
+  max-width: 300px;
+  background-color: var(--color-grey);
+  color: var(--color-white);
+  padding: 60px 30px;
+  
+}
+
+.asside__picture {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.asside__logo {
+  border-radius: 100%;
+  width: 190px;
+  height: 190px;
+  margin-inline: auto;
+}
+
+.asside__title {
+  margin-bottom: 20px;
+}
+
+.asside__descr {
+  margin-bottom: 30px;
+  padding-bottom: 115px;
+  border-bottom: 1px solid var(--color-white);
+}
+
+.asside__menu {
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--color-white);
+}
+
+.asside__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.asside__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.asside__item svg {
+  width: 30px;
+  aspect-ratio: 1;
+} 
+
+.asside__text-link:hover {
+  color: #DBD7D2;
+}
+
+.asside__link svg path {
+  fill: var(--color-white);
+}
+
+.asside__link:hover svg path {
+  fill: #DBD7D2;
+}

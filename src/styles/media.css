@@ -1,0 +1,82 @@
+@media (max-width: 950px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  .asside {
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .asside__title {
+    text-align: center;
+  }
+
+  .asside__descr {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .asside__link {
+    justify-content: center;
+    column-gap: 34px;
+  }
+
+  .main {
+    padding-top: 35px;
+  }
+
+  .education {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .contacts {
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+  }
+
+  .expirience__work {
+    text-align: center;;
+  }
+
+  .expirience__job {
+    display: block;
+  }
+
+  .expirience__job:not(:last-child) {
+    border-bottom: 1px solid var(--color-grey);
+    margin-bottom: 20px;
+  }
+
+  .expirience__worked-place {
+    text-align: center;
+  }
+
+  .expirience__work-time {
+    margin-bottom: 20px;
+  }
+
+  .expirience__desc {
+    padding: 0;
+    border: none;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .education {
+    padding-bottom: 0;
+  }
+
+  .expirience__post {
+    line-height: 1.5;
+  }
+}
