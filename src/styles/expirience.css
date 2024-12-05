@@ -1,10 +1,10 @@
 .expirience {
   padding: 20px 0 8px 0;
-  border-bottom: var(--border-bottom);
+  /* border-bottom: var(--border-bottom); */
 }
 
 .expirience__work {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 .expirience__job {
@@ -20,7 +20,6 @@
 .expirience__company-name {
   margin-bottom: 20px;
   line-height: 1.5;
-  /* word-break: break-all; */
 
 }
 
