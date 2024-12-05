@@ -1,9 +1,12 @@
 .asside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: 300px;
   background-color: var(--color-grey);
   color: var(--color-white);
-  padding: 60px 30px;
-  
+  padding: 60px 30px 20px 30px;
+
 }
 
 .asside__picture {
@@ -19,13 +22,24 @@
 }
 
 .asside__title {
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .asside__descr {
   margin-bottom: 30px;
   padding-bottom: 115px;
-  border-bottom: 1px solid var(--color-white);
+}
+
+.middle {
+  overflow: auto;
+  flex: 0 0 auto;
+  height: 687px;
+}
+
+.last {
+  padding-top: 48px;
+  border-top: 1px solid var(--color-white);
 }
 
 .asside__menu {
@@ -46,7 +60,7 @@
 .asside__item svg {
   width: 30px;
   aspect-ratio: 1;
-} 
+}
 
 .asside__text-link:hover {
   color: #DBD7D2;

@@ -1,7 +1,8 @@
 .education {
-  padding-bottom: 98px;
+  padding-top: 45px;
+  height: 240px;
 }
 
 .education__place {
-  column-gap: 20px;
+  column-gap: 61px;
 }

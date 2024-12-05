@@ -1,10 +1,10 @@
 .expirience {
-  padding: 20px 0 8px 0;;
+  padding: 20px 0 8px 0;
   border-bottom: var(--border-bottom);
 }
 
 .expirience__work {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .expirience__job {
@@ -14,21 +14,29 @@
 
 .expirience__worked-place {
   flex: 0 0 auto;
+  width: 102px;
 }
+
 .expirience__company-name {
-    margin-bottom: 20px;
-    line-height: 0.5;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  /* word-break: break-all; */
+
 }
 
 .expirience__desc {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   border-left: 1px solid var(--color-grey);
   padding-left: 35px;
+
 }
 
 .expirience__post {
-    position: relative;
-    margin-bottom: 20px;
-    line-height: 0.5;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 .expirience__post::before {
@@ -45,4 +53,5 @@
 
 .expirience__duties {
   padding-bottom: 15px;
+
 }

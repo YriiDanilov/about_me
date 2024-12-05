@@ -16,10 +16,12 @@ html {
 
 body {
   min-width: 320px;
-  word-break: normal;
   font-family: "EB Garamond", sans-serif;
   font-size: 14px;
   line-height: 1.5;
+  hyphens: auto;
+  word-wrap: break-word;
+  overflow-x: auto;
 }
 
 p,
@@ -34,10 +36,14 @@ h6 {
 }
 
 main {
-  padding: 90px 30px 20px 30px;
+  padding: 92px 30px 20px 30px;
   width: 100%;
   border: 1px solid var(--color-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 
 a {
   display: inline-block;
